@@ -16,6 +16,13 @@
             android:icon="@drawable/ic_fullscreen"
             app:key="fullscreen_gestures"
             app:title="@string/fullscreen_gestures" />
+        
+        <SwitchPreference
+    app:key="remember_playback_speed"
+    app:title="Remember Playback Speed"
+    app:summary="Save last used speed for next video"
+    app:defaultValue="true" />
+        
 
         <SwitchPreferenceCompat
             android:defaultValue="true"
