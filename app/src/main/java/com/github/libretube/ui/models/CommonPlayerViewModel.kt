@@ -15,3 +15,4 @@ class CommonPlayerViewModel : ViewModel() {
         sheetExpand.updateIfChanged(state)
     }
 }
+(prefs.remember_playback_speed == false) { currentSpeed = 1.0f }
