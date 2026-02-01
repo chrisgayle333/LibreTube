@@ -29,7 +29,7 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.github.libretube"
+        applicationId = "io.github.libretube.custom"
         minSdk = 26
         targetSdk = 35
         versionCode = 65
